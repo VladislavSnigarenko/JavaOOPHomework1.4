@@ -27,7 +27,7 @@ public class Network {
 		return numbers;
 	}
 
-	public void registerOneNember(String number) {
+	public void registerOneNumber(String number) {
 		if (numbers != null && numbers.contains(number))
 			System.out.println("Error : Number : (" + number + ") already exists on the network : " + name);
 		else

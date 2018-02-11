@@ -27,7 +27,7 @@ public class Phone {
 	}
 
 	public void registerInWetwork(Network network) {
-		network.registerOneNember(number);
+		network.registerOneNumber(number);
 	}
 	
 	public void call(Network network, String number) {
